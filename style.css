@@ -128,3 +128,22 @@ body{
     color: #18191F;
     margin-bottom: 10px;
 }
+
+/* media-section styles */
+#media-section{
+    margin: 0 100px 75px 100px;
+}
+.media-container{
+    width: 1239px;
+    height: 226px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media > h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
