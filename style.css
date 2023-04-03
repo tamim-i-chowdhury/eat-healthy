@@ -147,3 +147,17 @@ body{
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+/* footer-section styles */
+#footer-section{
+    width: 100%;
+    height: 200px;
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+}
+.footer-title{
+    font-size: 30px;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
