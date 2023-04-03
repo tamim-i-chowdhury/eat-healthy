@@ -21,23 +21,33 @@ body{
     border-radius: 100px;
     background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
 }
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left, #FBA24F, #1e44ff);
+}
 /* hero-section styles */
 #hero-section{
     width: 100%;
-    height: 600px;
+    height: 100vh;
+    background-image: url(./images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-container{
     display: flex;
     align-items: center;
     margin: 0 100px;
+    padding-top: 10px;
 }
 .hero-text{
     width: 50%;
+    text-align: center;
 }
 .hero-text > h1{
     font-size: 60px;
     color: #575757;
     margin-bottom: 40px;
+    margin-top: 75px;
 }
 .hero-text > p{
     font-size: 20px;
@@ -49,6 +59,7 @@ body{
 }
 .hero-image > img{
     width: 100%;
+    border-radius: 75px;
 }
 /* about-section styles */
 #about-section{
@@ -72,7 +83,7 @@ body{
 }
 .about-text{
     width: 35%;
-    margin-top: 200px;
+    margin-top: 136px;
 }
 .about-text > h3{
     font-size: 40px;
@@ -81,6 +92,8 @@ body{
 }
 .about-text > p{
     margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 /* recipie-section styles */
